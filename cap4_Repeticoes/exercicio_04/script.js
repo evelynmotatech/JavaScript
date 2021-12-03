@@ -1,0 +1,1 @@
+//Programa para ler o número de linhas inseridas pelo usuário e imprimir escrelas de asteriscos.

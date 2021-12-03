@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Fabrica de Estrelas</title>
+  <style>
+    h2{
+      border-bottom: 1px solid rgba(128, 46, 139, 0.555);
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2 class="text-center my-5">Fabrica de Estrelas</h2>
+  <section class="container">
+    <section class="row">
+    <section class="col-md-4">
+      <img class="img-fluid" src="https://juliana56lee.files.wordpress.com/2019/07/five-stars-crop.jpg" alt="">
+    </section>
+    
+      <section class="col-md-8 mt-5">
+        <form class="form-group">
+          <div class="input-group-prepend my-2">
+            <label class="input-group-text col-md-4" for="inNumeroLinhas">Número de Linhas:</label>
+            <input class="form-control col-md-8" type="text" name="inNumeroLinhas" id="inNumeroLinhas">
+          </div>          
+                 
+          <input class="btn btn-primary my-2" type="button" id="btVerificar" value="Criar Estrelas"></input>
+
+          <div>            
+            <h5 id="outEstrelas"></h5>
+          </div>
+        </form>
+      </section>
+
+      
+    </section>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
