@@ -27,7 +27,7 @@ function verificarParquimetro() {
     outTroco.innerHTML = `Troco: ${troco60min};`
   }else if(valorPago >= 3){
     outTempo.innerHTML = "Tempo: 120min";
-    outTroco.innerHTML = `Troco: ${troco120min};`
+    outTroco.innerHTML = `Troco: ${troco120min}`;
   }
 }
 
