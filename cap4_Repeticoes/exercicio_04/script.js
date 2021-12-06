@@ -1,6 +1,6 @@
 //Programa para ler o número de linhas inseridas pelo usuário e imprimir asteriscos.
 
-function fabricaEstrelas(numeroLinhas) {
+function fabricaEstrelas() {
 
   var inNumeroLinhas = document.getElementById("inNumeroLinhas").value;
   var outEstrelas = document.getElementById("outEstrelas");
