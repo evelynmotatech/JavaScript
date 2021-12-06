@@ -20,9 +20,9 @@ function verificarPerfeito(){
   outDivisores.innerHTML = `Os divisores de ${numero} são: ${divisores}. <br> A soma dos divisores é: ${somaDivisores}.`;
   
   if(somaDivisores == numero){
-    outPerfeito.innerHTML = `O número ${numero} é perfeito`;
+    outPerfeito.innerHTML = `O número ${numero} é perfeito.`;
   }else{
-    outPerfeito.innerHTML = `O número ${numero} não é perfeito`;
+    outPerfeito.innerHTML = `O número ${numero} não é perfeito.`;
   }
 
 }
